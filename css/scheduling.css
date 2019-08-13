@@ -1,0 +1,207 @@
+
+
+#sched_d_h, #sched_gantt_h, #sched_stats_h {
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-webkit-touch-callout: none;
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	-khtml-user-select: none;
+	
+	/* Rules below not implemented in browsers yet */
+	-o-user-select: none;
+	user-select: none;
+}
+
+#sched_d, #sched_gantt, #sched_stats {
+	opacity: 0.85;
+	padding: 0px;
+	transition: opacity 1s ease; /* IE 10 */
+	-webkit-transition: opacity 1s ease; /* Chrome & Safari */
+	-moz-transition: opacity 1s ease; /* Firefox */
+	-o-transition: opacity 1s ease; /* Opera */
+}
+
+#sched_d:hover, #sched_gantt:hover, #sched_stats:hover {
+	opacity: 1;
+	transition: opacity 1s ease; /* IE 10 */
+	-webkit-transition: opacity 1s ease; /* Chrome & Safari */
+	-moz-transition: opacity 1s ease; /* Firefox */
+	-o-transition: opacity 1s ease; /* Opera */
+}
+
+#sched_pt {
+	background: #e0eae0;
+	float: left;
+	margin: 2px;
+	min-height: 200px;
+	padding: 5px;
+}
+
+#sched_s {
+	background: #e0eae0;
+	border: solid 1px;
+	border-color: #327E04;
+	float: left;
+	margin: 2px;
+	min-height: 200px;
+	padding: 5px;
+}
+
+#sched_t {
+	border-spacing: 0;
+}
+
+#sched_th {
+	font-weight: bold;
+}
+
+#sched_th td {
+	padding: 5px;
+}
+
+#sched_tf td {
+	padding:5px;
+}
+
+#sched_tb tr:nth-child(2n) {
+	background: #fafafa;
+}
+#sched_tb tr:nth-child(2n+1) {
+	background: #f2f4f2;
+}
+
+#sched_tb tr:hover {
+	background: #eaeaea;
+}
+
+#sched_tb td {
+	cursor: default;
+	padding-left: 5px;
+	padding-right: 5px;
+	white-space: nowrap;
+}
+
+#sched_ops_th td{
+	font-weight: bold;
+	padding: 5px;
+	white-space: nowrap;
+}
+
+#sched_ops_tf td{
+	padding: 5px;
+	white-space: nowrap;
+}
+
+#sched_ops_tb td{
+	cursor: default;
+	padding-left: 5px;
+	padding-right: 5px;
+	white-space: nowrap;
+}
+
+#customCode {
+	margin: 0px;
+	padding: 0px;
+}
+
+#customCodeEditor {
+	height: 600px;
+	width: 800px;
+}
+
+#sched_canvas {
+	background: #f2f4f2;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+#sched_navi {
+	background: #e0eae0;
+	min-height: 30px;
+	padding: 5px;
+}
+
+/* Button to add stats */
+#sched_add_stats {
+	margin-bottom: 5px;
+}
+
+#sched_stats_content {
+	background: #fafafa;
+	overflow-x: auto;
+	padding: 5px;
+}
+
+#sched_stats_headers {
+	float: left;
+}
+
+#sched_stats_tables {
+	display: block;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.statsEntry {
+	display: inline-block;
+}
+
+.ui-icon.inline {
+	display: inline-block;
+}
+
+.statsTable {
+	border-collapse: collapse;
+	border-color: #327E04;
+	border-spacing: 0;
+}
+
+.statsTable td{
+	border: solid 1px;
+	border-color: #327E04;
+	padding: 5px 10px;
+}
+
+.boldEntry {
+	font-weight: bold;
+}
+
+.italicEntry {
+	font-style: italic;
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.metricsHeader {
+	background: #efefef;
+}
+
+.removeEntry {
+	text-align: right;
+}
+
+.removeEntry a {
+	color: red;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.textKey {
+	background: #eeeeee;
+	border: solid 1px;
+	border-color: #327E04;
+	display: inline-block;
+	font-weight: bold;
+	padding: 3px;
+}
+
+.textSymbol {
+	background: #54a615;
+	border: solid 1px;
+	border-color: #327E04;
+	display: inline-block;
+	padding: 3px;
+	vertical-align: -3px;
+}

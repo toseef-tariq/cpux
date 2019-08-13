@@ -1,0 +1,15 @@
+
+
+#tooltip {
+	border: solid 1px;
+	border-color: #327E04;
+	bottom: 10px;
+	color: #000000;
+	cursor: pointer;
+	display: none;
+	font-weight: bold;
+	padding: 10px;
+	position: fixed;
+	right: 10px;
+	z-index: 999;
+}
